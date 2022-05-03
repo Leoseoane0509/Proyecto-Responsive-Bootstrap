@@ -123,22 +123,32 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-bottom: thin solid #fff;
 }
-/* FOOTER */
-footer {
-  background-color: lightseagreen;
-}
-/* ------------------------------------------------------------- */
+/* -------------------------------------------- */
 /* SERVICIOS */
-/* Carousel */
-.carousel {
-  width: 50%;
-  margin: 1rem auto;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+/* MAIN */
+#services {
+  background-color: #ebebeb;
 }
+#services h1{
+  text-shadow: 4px 4px 2px rgba(32, 178, 170, 1);
+}
+/* Cards */
+.card {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 1rem;
+  line-height: 2rem;
+}
+
 /* ------------------------------------------------------------- */
 /* CONTACTO */
 /* MAIN */
@@ -187,3 +197,9 @@ footer {
   color: #fff;
   text-decoration: none;
 }
+/* --------------------------------------------------- */
+/* FOOTER */
+footer {
+  background-color: lightseagreen;
+}
+/* ---
