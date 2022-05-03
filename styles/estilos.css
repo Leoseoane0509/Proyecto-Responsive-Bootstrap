@@ -1,0 +1,189 @@
+/* CSS GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Navbar */
+.navbar {
+  background-color: rgb(32, 178, 170);
+}
+.navbar-collapse {
+  justify-content: end;
+}
+/* ------------------------------------------------------------- */
+/* INDEX */
+/* MAIN */
+/* Jumbotron */
+.jumbotron {
+  height: 30rem;
+  width: 100%;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.jumbotron h1 {
+  text-shadow: 4px 4px 2px rgba(32, 178, 170, 1);
+}
+.btn {
+  background-color: lightseagreen;
+}
+.btn:hover {
+  background-color: rgb(46, 223, 214);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+/* Quién soy */
+#me {
+  height: 50rem;
+  width: 100%;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.me-left {
+  width: 50%;
+  height: 80%;
+}
+
+.me-right {
+  width: 50%;
+  height: auto;
+}
+/* Clientes */
+.clientes {
+  height: auto;
+  width: 100%;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+}
+.stars {
+  color: gold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cliente h3 {
+  text-align: center;
+}
+.cliente p {
+  font-style: italic;
+  text-align: center;
+}
+/* Características */
+.characteristics {
+  height: auto;
+  width: 100%;
+}
+.list-group {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.list-group-item {
+  padding: 2rem;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-bottom: thin solid #fff;
+}
+/* FOOTER */
+footer {
+  background-color: lightseagreen;
+}
+/* ------------------------------------------------------------- */
+/* SERVICIOS */
+/* Carousel */
+.carousel {
+  width: 50%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+/* ------------------------------------------------------------- */
+/* CONTACTO */
+/* MAIN */
+/* Formulario de contacto */
+.form {
+  background-color: lightseagreen;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-label {
+  font-weight: 600;
+}
+.form-select:hover {
+  cursor: pointer;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #26d0ce 51%,
+    #1a2980 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
