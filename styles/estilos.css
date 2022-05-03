@@ -132,6 +132,7 @@ body {
 #services h1{
   text-shadow: 4px 4px 2px rgba(32, 178, 170, 1);
 }
+
 /* Cards */
 .card {
   background: #000000; /* fallback for old browsers */
@@ -145,7 +146,7 @@ body {
     #434343,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 1rem;
+  padding: 2rem;
   line-height: 2rem;
 }
 
